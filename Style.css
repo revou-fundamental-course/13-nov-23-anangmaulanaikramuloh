@@ -1,1 +1,58 @@
-/* UNTUK TES GIT */
+/* MARK HEADER */
+
+.navigation-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: min-content;
+}
+
+.navigation {
+    display: flex;
+    gap: 10px;
+}
+
+.navigation a {
+    text-decoration: none;
+}
+
+.titel-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* MARK MAIN */
+
+#main-section {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.review-setion {
+    flex-basis: 100%;
+    flex-grow: 0;
+}
+
+.review-section img {
+    max-width: 100%;
+    max-height: 50%;
+}
+
+.message-us {
+    flex-basis: 40%;
+    flex-grow: 0;
+    background-color: bisque;
+    border-radius: 20px;
+}
+
+.input-message-us {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    margin-left: 24px;
+}
